@@ -8,7 +8,7 @@ desenvolvedores = [
     {"nome": "Filipe",
      'habilidades': ['Python', 'Flask', 'Django']},
     {'nome': 'Castro',
-     'habilidades': ['Python', 'Machine Learning']}
+     'habilidades': ['Python']}
 ]
 #Devolve os dados via ID, altera e delete os dados.
 @app.route('/dev/<int:id>/', methods=['GET','PUT','DELETE'])
