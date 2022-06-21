@@ -13,7 +13,7 @@ desenvolvedores = [
     {"nome": "Filipe",
      'habilidades': ['Python', 'Flask', 'Django']},
     {'nome': 'Castro',
-     'habilidades': ['Python', 'Machine Learning']}
+     'habilidades': ['Python']}
 ]
 
 class Desenvolvedor(Resource):
